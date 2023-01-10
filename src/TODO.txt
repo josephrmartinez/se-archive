@@ -1,0 +1,17 @@
+
+- Implement ability to store user-suggested
+complaint and feeling values (page two) in database. 
+Values are stored in a separate "suggestions" table for manual review. 
+Suggested values on page 2 are not immediately utilized in the site.
+
+- Reformat complaints and feelings data objects 
+to store upvotes upon clicking "I'm complete" on page 3.
+(Also store user suggested values in each section. Possibly in separate "suggestions" table?)
+
+- Determine appropriate database for site. 
+Move complaints and feelings objects to database.
+Implement database query process for populating component contents in app. 
+
+- Rebuild using React. Clean up code: SRP, file structure.
+
+- Bug fix: determine why carousel motion jerks on firefox desktop
